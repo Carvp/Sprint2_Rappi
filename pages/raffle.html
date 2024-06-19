@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="icon" type="image/png" href="../img/icon.png">
+</head>
+<body>
+    <header>
+        
+        
+        <nav class="navbar">
+             
+            <div class="nav-links">
+               <a href="/index.html" >Home</a> 
+                <a href="./about.html">About</a> 
+                <a href="./contact.html" >Contact</a> 
+                <a href="./information.html" >Information</a>
+                <a href="./benefitsTips.html">BenefitsTips</a>
+                <a href="#" class="active">Raffle</a>
+            </div>
+        <div >
+            <img src="../img/logo.png" alt="Logo" class="logo">
+        </div>
+        </nav>
+    
+       
+    </header>
+  <main>
+    <section class="main-content">
+      <div class="page-tiStle">
+          <h1 class="">CAKE SHOP</h1>
+          <p>Home</p>
+      </div>
+  
+  </section>
+   
+<div class="form-content">
+  <div class="map-container">
+    <h5 class="map-container-p">Our location is located at:</h5>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d316721.36222392914!2d-82.60494017050947!3d28.029344575136538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1718836381237!5m2!1ses-419!2sco"
+     width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+ <form action="./show_data.html" method="get">
+
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" name="first-name" required />
+  
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" name="last-name" required />
+  
+          <label for="options">Choose Meet or Zoom</label>
+
+          <select id="options" name="options" required>
+            <option value="">Select </option>
+            <option value="meet">Google Meet</option>
+            <option value="zoom">Zoom</option>
+          </select>
+  
+          <label for="date">Choose Date</label>
+          <input type="date" id="date" name="date" required />
+  
+          <div class="options-payment">
+            <legend>Payment Options</legend>
+            <label>
+              <input class="payment1" type="radio" name="payment" value="cash" required />
+              Cash
+            </label>
+            <label>
+              <input type="radio" name="payment" value="credit-card" /> Credit
+              Card
+            </label>
+            <label>
+              <input type="radio" name="payment" value="debit-card" /> Debit
+              Card
+            </label>
+          </div>
+  
+          <label for="message">Message (Optional)</label>
+
+          <textarea id="message" name="message"></textarea>
+  
+          <div class="terms">
+            <input type="checkbox" id="t  erms" name="terms" required />
+            <label for="terms">I accept terms and conditions...</label>
+            <button type="submit" class="submit-btn">Send</button>
+          </div>
+
+        </form>
+  
+        
+        </main>
+    <footer>
+        <div class="CreateBy ae" >
+            <h3 > Create by -  Carlos  Vizcaino </h3>
+        </div>
+      
+    </footer>
+</body>
+
+</html>
